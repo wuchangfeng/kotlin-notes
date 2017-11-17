@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 import os
-root_dir = r"C:\Users\hyc\IdeaProjects\Kotlin\src"
-read_me = r"C:\Users\hyc\IdeaProjects\Kotlin\readMe.md"
+root_dir = r"E:\DEV_Java\Kotlin\src"
+read_me = r"E:\DEV_Java\Kotlin\readMe.md"
 f = open(read_me, "w+")
 
 def TreeList(root_dir):
@@ -10,7 +10,7 @@ def TreeList(root_dir):
         path = os.path.join(root_dir, lists)
         file_name = path.split('\\')[-1]
         print(file_name)
-        f.write(file_name + '\n' + '\n')
+        f.write(file_name + '\n')
         if os.path.isdir(path):
             TreeList(path)
             f.write('\n')
