@@ -10,7 +10,7 @@ def TreeList(root_dir):
         path = os.path.join(root_dir, lists)
         file_name = path.split('\\')[-1]
         print(file_name)
-        f.write(file_name + '\n')
+        f.write(file_name + '\n' + '\n')
         if os.path.isdir(path):
             TreeList(path)
             f.write('\n')
