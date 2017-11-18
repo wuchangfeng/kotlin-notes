@@ -1,7 +1,8 @@
 package kotlin_design_pattern
 
-//抽象工厂设计模式
-
+/**
+ * 设计模式之抽象工厂设计模式
+ */
 // 植物接口
 interface  Plant
 

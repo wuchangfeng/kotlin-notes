@@ -1,7 +1,6 @@
 package kotlin_know
 
 //kotlin不支持自定义操作符，只能对现有操作符进行重载
-
 data class OperatorOverride(var name: String, var age: Int) {
     // 重载 +a = a.unaryPlus()
     operator fun unaryPlus() : OperatorOverride{

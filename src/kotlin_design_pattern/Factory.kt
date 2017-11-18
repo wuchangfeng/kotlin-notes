@@ -1,5 +1,8 @@
 package kotlin_design_pattern
 
+/**
+ * 设计模式之工厂模式
+ */
 interface Currency{
     val code: String
 }

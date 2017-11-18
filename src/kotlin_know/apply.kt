@@ -7,7 +7,7 @@ package kotlin_know
 fun main(args: Array<String>) {
     // mutableList 可以改变的list
     val list: MutableList<String> = mutableListOf("A","B","C")
-    val change1: Any
+    val change1: MutableList<String>
     change1 = list.apply {
         add("D")
         add("E")

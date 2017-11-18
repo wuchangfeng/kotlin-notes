@@ -1,5 +1,8 @@
 package kotlin_design_pattern
 
+/**
+ * 设计模式之工厂方法模式
+ */
 interface Product{
     val name: String
 }

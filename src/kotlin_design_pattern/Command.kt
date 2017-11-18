@@ -1,5 +1,11 @@
 package kotlin_design_pattern
 
+/**
+ * 设计模式之命令模式-：将一个请求封装为一个对象，
+ * 从而使我们可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，
+ * 以及支持可撤销的操作。命令模式是一种对象行为型模式，
+ * 其别名为动作(Action)模式或事务(Transaction)模式。
+ */
 interface OrderCommand{
     fun execute()
 }
@@ -19,7 +25,7 @@ class OrderPayCommand(val id: Long): OrderCommand{
 class CommandProcessor{
     private val queue = ArrayList<OrderCommand>()
 
-    // apply的用法是什么
+    // apply的用法
     fun addToQueue(orderCommand: OrderCommand): CommandProcessor
         = apply { queue.add(orderCommand) }
 

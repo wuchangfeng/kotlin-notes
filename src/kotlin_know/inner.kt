@@ -1,7 +1,6 @@
 package kotlin_know
 
-
-
+//kotlin中的内部类
 class Outer {
     private val bar: Int = 1
     inner class Inner {

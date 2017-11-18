@@ -1,5 +1,6 @@
 package kotlin_know
 
+// fold和reduce的用法
 fun main(args: Array<String>) {
     val list = listOf<Int>(1,2,3)
     // fold

@@ -1,5 +1,8 @@
 package kotlin_datastructure
 
+/**
+ * 树的节点定义
+ */
 class TreeNode<T>(value: T){
     var value: T = value
 

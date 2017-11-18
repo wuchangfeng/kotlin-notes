@@ -1,5 +1,8 @@
 package kotlin_algorithm
-// 选择排序
+
+/**
+ * kotlin实现选择排序
+ */
 fun <T:Comparable<T>>selectionsort(items:MutableList<T>):MutableList<T>{
     if (items.isEmpty()){
         return items

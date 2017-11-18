@@ -1,5 +1,6 @@
 package kotlin_know
 
+//kotlin中的lambda表达式
 fun main(args: Array<String>) {
     val lambda = {
         left: Int,right: Int

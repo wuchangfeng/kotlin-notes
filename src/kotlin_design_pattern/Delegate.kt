@@ -2,6 +2,9 @@ package kotlin_design_pattern
 
 import kotlin.reflect.KProperty
 
+/**
+ * 设计模式之委托模式
+ */
 //普通类
 class Example{
     //p属性委托给了Delegate()

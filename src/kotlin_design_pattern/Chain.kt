@@ -1,7 +1,8 @@
 package kotlin_design_pattern
 
-// 责任链模式
-
+/**
+ * 设计模式之责任链模式
+ */
 // 责任接口
 interface MessageChain{
     fun addLines(inputHeader: String): String

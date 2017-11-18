@@ -1,7 +1,8 @@
 package kotlin_design_pattern
 
-// 装饰者模式，跟继承类似，给一个对象添加功能
-
+/**
+ * 设计模式之装饰者模式，跟继承类似，给一个对象添加功能
+ */
 interface CoffeeMachine{
     fun makeSmallCoffee()
     fun makeLargeCoffee()

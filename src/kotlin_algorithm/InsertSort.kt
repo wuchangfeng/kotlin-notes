@@ -6,7 +6,6 @@ package kotlin_algorithm
 //4:重复步骤 3，直到找到已排序的元素小于或者等于新元素的位置
 //5:将新元素插入到该位置后
 //6:重复步骤 2~5
-
 fun <T:Comparable<T>> insertionsort(items:MutableList<T>):List<T>{
     if (items.isEmpty()){
         return items

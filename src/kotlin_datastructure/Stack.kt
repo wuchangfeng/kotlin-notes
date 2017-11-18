@@ -70,6 +70,6 @@ fun main(args: Array<String>) {
     println(stack)
     stack.pop()
     println(stack)
-
+    // in内部使用迭代器遍历
     for (item in stack) println("Item in stack : " + item)
 }

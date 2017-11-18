@@ -1,11 +1,17 @@
 package kotlin_datastructure
 
+/**
+ * 链表节点定义
+ */
 class Node<T>(value : T){
     var value : T = value
     var next : Node<T>? = null
     var previous : Node<T>? = null
 }
 
+/**
+ * 链表定义
+ */
 class LinkedList<T>{
     var head : Node<T>?= null
     //取决于head是否为null

@@ -4,7 +4,6 @@ package kotlin_design_pattern
  * 在访问者模式（Visitor Pattern）中，我们使用了一个访问者类，
  * 它改变了元素类的执行算法。通过这种方式，元素的执行算法可以随着访问者改变而改变。
  */
-
 // 定义一个表示元素的接口
 interface ReportVisitable {
     // 一个能够接受访问者的方法
