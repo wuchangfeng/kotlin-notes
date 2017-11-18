@@ -24,7 +24,7 @@
 
 
 
-[kotlin_datastructure](src/kotlin_datastructure)
+## [kotlin_datastructure](src/kotlin_datastructure)
 
 
 [BinarySearchTree.kt](src/kotlin_datastructure/BinarySearchTree.kt)
